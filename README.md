@@ -32,7 +32,7 @@ graph TD
     E[Scoring & recommendation Engine]
 
     %% Connections
-    A -->|User Inputs startup data| B
+    A -->|User Inputs startup data| C
     C -->|Create prompt based on structured data| D
     D -->|Synthesized Insights| E
     E -->|Validated Analysis| A
