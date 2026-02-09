@@ -26,19 +26,20 @@ View your app in AI Studio: https://ai.studio/apps/drive/1X6Zijlrf3rFRMYNCCuzKiT
 ```mermaid
 graph TD
     %% Nodes
-    A[Frontend (React)]
-    B[Decision API]
-    C[Signal Extractor]
+    A[Frontend: React & TS]
+    B[Decision API: Orchestration]
+    C[Signal Extractor: Data Structuring]
     D[Gemini 3 Reasoning Layer]
     E[Scoring & Guardrails Engine]
 
     %% Connections
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A -->|User Inputs| B
+    B -->|Contextual Chaining| C
+    C -->|Structured Prompt| D
+    D -->|Synthesized Insights| E
+    E -->|Validated Analysis| A
 
-    %% Styling for "Google-friendly" look
+    %% Styling
     classDef box fill:#ffffff,stroke:#5f6368,stroke-width:2px,color:#202124,rx:10,ry:10;
     classDef gemini fill:#e8f0fe,stroke:#1a73e8,stroke-width:3px,color:#1a73e8,rx:10,ry:10;
 
