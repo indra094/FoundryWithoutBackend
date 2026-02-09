@@ -21,7 +21,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1X6Zijlrf3rFRMYNCCuzKiT
 
 
 ### High-Level Flow
-> **"Gemini reasons. Foundry decides."**
+**"Gemini reasons. Foundry decides."**
 
 ```mermaid
 graph TD
