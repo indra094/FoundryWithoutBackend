@@ -28,9 +28,9 @@ graph TD
     %% Nodes
     A[Frontend: React & TS]
     B[Decision API: Orchestration]
-    C[Signal Extractor: Data Structuring]
-    D[Gemini 3 Reasoning Layer]
-    E[Scoring & Guardrails Engine]
+    C[Team, Idea, Financial, and dashboard related Data Structuring]
+    D[Feed data into Gemini 3 Reasoning Layer]
+    E[Scoring & recommendation Engine]
 
     %% Connections
     A -->|User Inputs| B
