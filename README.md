@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1X6Zijlrf3rFRMYNCCuzKiTKYmxiS_xg_
+View your app in AI Studio: https://foundry-504905048153.us-west1.run.app/
 
 ## Run Locally
 
